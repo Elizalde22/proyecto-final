@@ -69,7 +69,7 @@
 
 .comprar {
   font-size: 24px;
-  padding: 500px 0px 500px 25px;
+  padding: 500px 0px 500px 0px;
   color: white; }
 
 .comprar2 {
@@ -155,6 +155,8 @@
     align-items: center !important; } }
 
 @media screen and (max-width: 500px) {
+  .productos div {
+    margin: 0px !important; }
   .header nav ul li {
     display: block;
     align-items: center; }
